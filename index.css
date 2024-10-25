@@ -8,14 +8,14 @@
 html,body{
   height: 100%;
   width: 100%;
-  background: gray;
+  background: rgba(240, 233, 233, 0.4);
 
 }
 header{
   display: flex;
   height: 60px;
   width: 100%;
-  background: rgb(137, 92, 92);
+  background: rgb(181, 228, 241);
 
 
 }
@@ -40,6 +40,7 @@ justify-content: space-between;
   
 }
 nav ul li{
+  color: black;
   text-align: center;
   font-size: 25px;
   justify-content: space-between;
@@ -53,7 +54,7 @@ nav ul li a{
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
+  color:black;
 }
  /*#logo{
   display: block;
@@ -62,10 +63,10 @@ nav ul li a{
   margin-left: 4px;
 }*/
 #logo_id{
-  margin-left: 10px;
+  margin: 1px;
   height: 60px;
   width: 60px;
-
+float: left;
 }
 #search_bar{
   margin-top: 15px;
@@ -336,9 +337,10 @@ header nav ul li{
   left: 0;
   right: 0;
   flex-direction: column;
-  align-items: center;
-  background: rgb(82, 70, 164, 0.6); 
+  align-items: end;
+  background: rgb(181, 281, 241); 
   gap: 0;
+  align-items: center;
   margin-left: 0;
   overflow: hidden;
   color: black;
