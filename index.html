@@ -11,35 +11,31 @@
 </head>
 <body>
   <header>
-    <div id="logo">
-      <a href="#"> <img id="logo_png" src="r.png" alt="RandomStore"></a>
-    </div>
-    <input id="search_icon" placeholder="search product and more">
-    <button id="search_btn"><b> search</b></button>
     <nav>
-      <a href="#">fashion</a>
-      <a href="#">electronics</a>
-      <a href="#">foods</a>
-      <a href="#">non-foods</a>
-      <a href="#">more</a>
-      
+    <a id="logo" href="#"> <img id="logo_id"
+      src="./r.png" alt="RanndomStore"></a>
+     
+      <input id="search_bar" type="" placeholder="search products & more">
+      <button id="searchbtn"> search</button>
+    
+    <ul id="menuList">
+    <li><a href="#">fashion</a></li>
+    <li><a href="#">electronics</a></li>
+    <li><a href="#">foods</a></li>
+    <li><a href="#">non-foods</a></li>
+    <li><a href="#">more</a></li>
+  </ul>
+  
+ <div id="profile"><i class="fa-solid fa-user profile "></i></div> 
+    
+
+    
+   <div id="menuu"> <i class="fa-solid fa-bars " onclick="tgMenu()"></i></div>
+  
+  
     </nav>
-    <div id="action">
-      <div class="actionbar">
-        <a href="#">
-        <span class="material-symbols-outlined atio">
-          account_circle
-          </span>
-        
-        <span class="actn">profile</span>
-      </a>
       
-        </div>
-        
-        
-      
-      
-    </div>
+       
 
   </header>
 
@@ -136,35 +132,44 @@
   <div class="foot">
     <div id="last">
        <p><big>get know us</big></p>
-      <a class="footerr" href="#">
+      
         <ul>
-          <li>RandomStore</li>
-          <li>conatact</li>
-          <li>about</li>
+<a class="footerr" href="#">
+  <li>RandomStore</li></a>
+<a class="footerr" href="#">
+  <li>conatact</li></a>
+<a class="footerr" href="#">
+  <li>about</li></a>
         </ul>
-      </a></div>
+    </div>
       <div id="last">
       <p><big>contact with us</big></p>
-      <a class="footerr" href="#">
-       <ul>
-        <li> facebook</li>
-        <li>instagram</li>
-        <li>twitter</li>
+       <ul>      
+<a class="footerr" href="#">
+  <li> facebook</li></a>
+<a class="footerr" href="#">
+  <li>instagram</li></a>
+<a class="footerr" href="#">
+  <li>twitter</li></a>
       </ul>
-      </a>
+      
     </div>
     <div id="last">
       <p><big>
         Let Us Help you</big></p>
-        <a class="footerr" href="#">
+        
       <ul>
-        <li>Your Account</li>
-        <li>Returns Centre</li>
+        <a class="footerr" href="#">
+
+  <li>Your Account</li></a>
+<a class="footerr" href="#">
+  <li>Returns Centre</li></a>
 
         
-        <li>Help</li>
+<a class="footerr" href="#">
+  <li>Help</li></a>
       </ul>
-    </a>
+  
     </div>
   </div>
   <hr>
@@ -172,6 +177,19 @@
   </footer>
   <hr>
   <h6>© 2024 www.RandomStore.com. All rights reserved.</h6>
+<script>
+  let menuList =document.getElementById("menuList")
+  menuList.style.maxHeight = "0px";
 
+   function tgMenu(){
+
+    if(menuList.style.maxHeight =="0px")
+    {menuList.style.maxHeight = "300px"}
+    else{
+      menuList.style.maxHeight = "0px"
+    }
+   }
+
+</script>
 </body>
 </html>      
