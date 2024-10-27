@@ -6,24 +6,97 @@
   
 }
 html,body{
-  height: 100%;
   width: 100%;
-  background: rgba(240, 233, 233, 0.4);
+  background: rgba(152, 211, 239, 0.478);
 
 }
 header{
   display: flex;
   height: 60px;
   width: 100%;
-  background: rgb(181, 228, 241);
+  background: rgb(43, 47, 86);
 
 
 }
+.men_fas{
+  display: flex;
+  background: #c5ccde;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 20px;
+  height: 400px;
+  
+  
+}
+.menpic{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#men_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#kids_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+#electronics{
+  margin-left: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#food_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+#nfood_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+.mencon{
+  flex-wrap: wrap;
+  display: flex;
+  height: 273px;
+  width: 240px;
+  margin-left: -30px;
+  margin-top: -29px;
+  padding: 0;
+
+  
+}
+p{
+  font-size: 10px;
+  word-spacing: 5px;
+  text-align:left;
+  font-size: 25px;
+  margin-left: -20px;
+  word-wrap: none;
+  flex-wrap: nowrap;
+  
+}
+#explorebtn{
+  height: 30px;
+  float: inline-end;
+  margin: 10px;
+  font-weight: 300;
+  background: #5893e5;
+border-radius: 4px;
+cursor: pointer;
+}
+
 nav{
   display: flex;
   width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 40px;
   justify-content: space-evenly;
   
 }
@@ -44,8 +117,7 @@ nav ul li{
   text-align: center;
   font-size: 25px;
   justify-content: space-between;
-  
-  
+  gap: 30px;
   
 }
 nav ul li a{
@@ -56,21 +128,22 @@ nav ul li a{
   font-size: 20px;
   color:black;
 }
- /*#logo{
-  display: block;
-  height: 60px;
-  width: 60px;
-  margin-left: 4px;
-}*/
+ #logo{
+  padding-left: 20px;
+  margin-left: 15px;
+}
 #logo_id{
-  margin: 1px;
+  color: #fff;
+  margin-left: -64px;
   height: 60px;
   width: 60px;
 float: left;
 }
 #search_bar{
+  margin-left: -63px;
+  padding-left: 33px;
   margin-top: 15px;
-  width: 20%;
+  width: 28%;
   height: 30px;
   justify-content: center;
   border: 1px solid black;
@@ -82,31 +155,19 @@ float: left;
   margin-top: 15px;
   display: inline-block
 }*/
-#searchbtn{
-  
-  margin-top: 15px;
-  height: 30px;
-  color: rgb(1, 1, 1);
-  background: #fff;
-  border: 1px solid black;
-  border-radius: 4px;
-  width: 60px;
-  display: inline-block;
 
-}
-
-#profile{
-  margin-top: 20px;
+header nav ul li a{
+  color: #fff;
 }
 #menuu{
   margin-top: 20px;
   display: none;
+  color: #fff;
 }
 
 h1{
   text-align: center;
    margin-top: 5%;
-   font-family: Arial, Helvetica, sans-serif;
    text-transform: capitalize;
    text-size-adjust: 20px;
    text-shadow: 5px;
@@ -115,7 +176,7 @@ h1{
 
 }
  h2{
-  font-family: 'Times New Roman', Times, serif;
+
   text-transform: capitalize;
   margin-top: 5%;
   margin-left: 3%;
@@ -130,159 +191,84 @@ ul li{
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#men1{
-  height: 299px;
-  width: 200px;
-}
-#men2{
-  height: 299px;
-  width: 200px;
-}
-#men3{
-  height: 299px;
-  width: 200px;
-
-
- 
-}
-#men4{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#men5{
-  height: 299px;
-  width: 200px;
-
-
 }
 #men_fashion{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   word-spacing: 60px;
-  margin-left: 3%;
+  margin-left: 20px;
   align-content: space-between;
 }
 
-#women1{
-  height: 299px;
-  width: 200px;
-
- 
+#women_fashion{
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 60px;
+  align-content: space-between;
 }
-#women2{
-  height: 299px;
-  width: 200px;
 
- 
-}
-#women3{
-  height: 299px;
+.women_fas{
+  display: flex;
+  background: #c5ccde;
+  border: 2px solid black;
   width: 200px;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 20px;
+  height: 400px;
+  
+  
+}
+.womenpic{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#women_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+}
+.womencon{
+  flex-wrap: wrap;
+  display: flex;
+  height: 273px;
+  width: 240px;
+  margin-left: -30px;
+  margin-top: -29px;
+  padding: 0;
 
   
 }
-#women4{
-  height: 299px;
-  width: 200px;
-
- 
+p{
+  font-size: 10px;
+  word-spacing: 5px;
+  text-align:left;
+  font-size: 25px;
+  margin-left: -20px;
+  word-wrap: none;
+  flex-wrap: nowrap;
+  
 }
-#women5{
-  height: 299px;
-  width: 200px;
-
- 
+#explorebtn{
+  height: 30px;
+  float: inline-end;
+  margin: 10px;
+  font-weight: 300;
+  background: #5893e5;
+border-radius: 4px;
+cursor: pointer;
 }
+
+
+
 #women_fashion{
   word-spacing: 60px;
   display: flex;
   justify-content: space-evenly;
   margin-left: 3%;
   align-content: space-between;
-}
-#kid1{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#kid2{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#kid3{
-  height: 299px;
-  width: 200px;
-
- 
-}
-#kid4{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#kid5{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#kids_fashion{
-  word-spacing: 55px;
-  display:flex;
-  justify-content: space-between;
-  margin-left: 3%;
-  margin-right: 3%;
-  align-content: space-between;
-}
-#electronics{
-  display: flex;
-  justify-content: space-between;
-  word-spacing: 60px;
-  margin-left: 3%;
-  align-content: space-between;
-}
-.elec{
-  height: 299px;
-  width: 200px;
-
-  
-}
-.food{
-  height: 299px;
-  width: 200px;
-
- 
-}
-#food_item{
-  display: flex;
-  justify-content: space-between;
-  word-spacing: 60px;
-  margin-left: 3%;
-  align-content: space-between;
-  
-}
-.nfood{
-  height: 299px;
-  width: 200px;
-
-  
-}
-#nfood_item{
-  display: flex;
-  justify-content: space-between;
-  word-spacing: 60px;
-  margin-left: 3%;
-  align-content: space-between;
-  
-  
 }
 #last{
   display: inline-block;
@@ -321,9 +307,10 @@ h6{
   width: 60px;
   margin-left: 0;
 }
-@media (max-width:900px){
+@media (max-width:1026px){
 #menuu{
   display: block;
+  color: #fff;
 }
 header nav ul li{
   padding: 20px;
@@ -338,12 +325,12 @@ header nav ul li{
   right: 0;
   flex-direction: column;
   align-items: end;
-  background: rgb(181, 281, 241); 
+  background: rgb(43, 47, 86); 
   gap: 0;
   align-items: center;
   margin-left: 0;
   overflow: hidden;
-  color: black;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -352,5 +339,21 @@ header nav ul li{
   transition: all;
   transition-duration: 1s;
   transition-delay: 0;
-  
+  gap: 20px;
+}
+header nav ul li a:hover{
+  color: rgb(202, 123, 123);
+}
+.logo_container{
+align-items: center;
+justify-content: center;
+display: block;
+margin: 20px 0px;
+}
+#frontlogo{
+  width: 100%;
+  align-items: center;
+justify-content: center;
+position: relative;
+border: 3px solid black;
 }
